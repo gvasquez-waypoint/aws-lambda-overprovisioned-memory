@@ -9,12 +9,12 @@ Using Cloudwatch Log Insights and their provided **Sample Query** to **Determine
 
 **NOTE 2**: lowering RAM setting has a direct correlation with assigned CPU resources, so you Lambdas may take longer to execute thus, less RAM does not always mean less cost.
 
-# Usage
+## Usage
 
 - Customize your script to set both your desired Cloudwatch Namespace and Metric name
 - Check the metrics created by graphing them. The highest the value, the most likely you can lower your RAM setting.
 
-# Example
+## Example
 
 In the following image, the Lambda Function is ExportReporteEventosAsistenteConduccion is reporting an over-provisioning of about 2 GB:
 
