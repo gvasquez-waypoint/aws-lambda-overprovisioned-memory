@@ -9,6 +9,8 @@ Using Cloudwatch Log Insights and their provided **Sample Query** to **Determine
 
 **NOTE 2**: lowering RAM setting has a direct correlation with assigned CPU resources, so you Lambdas may take longer to execute thus, less RAM does not always mean less cost.
 
+**NOTE 3**: script runs according to your configured environment (account, credentials, profile and region), so you can tweak what you actually want to scan via [env vars](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html) (AWS_PROFILE, AWS_DEFAULT_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)
+
 ## Usage
 
 - Download [lambda-overprovision.sh](https://github.com/gvasquez-waypoint/aws-lambda-overprovisioned-memory/blob/master/lambda-overprovision.sh) file
