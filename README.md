@@ -11,8 +11,15 @@ Using Cloudwatch Log Insights and their provided **Sample Query** to **Determine
 
 ## Usage
 
+- Download [lambda-overprovision.sh](https://github.com/gvasquez-waypoint/aws-lambda-overprovisioned-memory/blob/master/lambda-overprovision.sh) file
 - Customize your script to set both your desired Cloudwatch Namespace and Metric name
 - Check the metrics created by graphing them. The highest the value, the most likely you can lower your RAM setting.
+
+## Dependencies
+
+- AWS CLI (tested on aws-cli/1.11.190 Python/2.7.10 Darwin/18.7.0 botocore/1.12.64)
+- jq (tested on jq-1.6)
+
 
 ## Example
 
