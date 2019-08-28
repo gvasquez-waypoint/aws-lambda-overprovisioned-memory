@@ -18,6 +18,6 @@ Using Cloudwatch Log Insights and their provided **Sample Query** to **Determine
 
 In the following image, the Lambda Function is ExportReporteEventosAsistenteConduccion is reporting an over-provisioning of about 2 GB:
 
-![alt text](http://url/to/img.png)
+![Metrics Example](https://raw.githubusercontent.com/gvasquez-waypoint/aws-lambda-overprovisioned-memory/master/cw-example.jpg)
 
 
